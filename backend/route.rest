@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/sign-up
+Content-Type: application/json
+
+{
+    "username": "lolo3333333fffffff",
+    "password": "lolo"
+}
+
+###
+
+GET http://localhost:3000/api/get_all_posts

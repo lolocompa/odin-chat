@@ -1,0 +1,47 @@
+.container_create {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.create_label {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 50px 0 10px 0;
+}
+
+.title_input {
+  width: 30%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.create_page_title {
+  font-size: 43px;
+  margin-top: 20px;
+}
+
+.content_input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.submit_btn {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ff6f6f;
+  background-color: #ff6f6f;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: color 0.3s;
+}
+
+.container_create button:hover {
+  color: white;
+}

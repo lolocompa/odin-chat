@@ -1,0 +1,31 @@
+.nav {
+  padding: 30px 30px 30px 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9cfa0;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.link {
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin: 0 30px;
+}
+
+.content {
+  box-sizing: border-box;
+  min-height: 90vh;
+  background-color: #fafafa;
+}
+
+span {
+  font-size: 20px
+}
+
