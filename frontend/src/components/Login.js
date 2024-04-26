@@ -1,20 +1,23 @@
 import React from "react";
-import "../css/signup.css";
+import "../css/login.css";
 
-export const Login = () => {
-
+const Login = () => {
   return (
-    <div>
-      <form className="signup_form" action="/api/login" method="POST">
-        <h1>Log in to your account</h1>
-        <div className="form_container">
-          <label htmlFor="username">Username</label>
-          <input name="username" placeholder="username" type="text" />
+    <div className="container">
+      <form method="POST" action="/api/login" className="login_box">
+        <h1>Messaging app</h1>
+        <p>Welcome back!</p>
+        <div className="input_container">
+          <label htmlFor="email">Email</label>
+          <input name="username" type="email" />
           <label htmlFor="password">Password</label>
-          <input placeholder="Password" name="password" type="password" />
-          <button type="submit">Login</button>
+          <input name="password" type="password" />
         </div>
+        <button type="submit">Login</button>
+        <a href="/register">dont have an account?</a>
       </form>
     </div>
   );
 };
+
+export default Login;

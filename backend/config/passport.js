@@ -9,7 +9,7 @@ function initialize(passport) {
   passport.use(
     new LocalStrategy(async (username, password, done) => {
       try {
-        const search_user = await user.findOne({ username: username });
+        const search_user = await user.findOne({ email: username });
         if (!search_user) {
           return done(null, false, { message: "Incorrect username" });
         }

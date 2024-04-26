@@ -1,28 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home } from "./components/Home";
-import { Signup } from "./components/Signup";
-import { Login } from "./components/Login";
-import { Write } from "./components/Write";
-import { Post } from "./components/Post";
+import Login from "./components/Login";
+import Register from "./components/Register"
+import Home from "./components/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "/sign-up", element: <Signup /> },
-      { path: "/login", element: <Login /> },
-      { path: "/Write", element: <Write /> },
-      { path: "/posts/:id", element: <Post /> },
-    ],
+    path: "/login",
+    index: true,
+    element: <Login />,
   },
+  {
+    path: "/register",
+    element: <Register />
+  },
+  {
+    path: "/",
+    element: <Home />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

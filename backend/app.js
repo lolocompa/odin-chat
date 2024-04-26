@@ -31,7 +31,7 @@ app.use(cors({ origin: 'http://localhost:3001' }));
 
 async function main() {
   try {
-    const db = await mongoose.connect("mongodb://0.0.0.0:27017/blog", {});
+    const db = await mongoose.connect("mongodb://localhost:27017/message", {});
 
     console.log("Connected to the database");
 
