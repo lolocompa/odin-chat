@@ -1,7 +1,7 @@
 
 Real-Time Chat Application
 
-Welcome to my chat application, a real-time chat application designed to connect you with friends and loved ones. With it, you can chat with multiple friends simultaneously, share messages, and more, all in a secure and user-friendly environment.
+Welcome to my chat application, a real-time chat application designed to connect you with friends and loved ones. With it, you can chat with multiple friends simultaneously, share messages, and more, all in a secure and user-friendly environment. in this project i show my skills to develop a full-stack application using databases and authenticatication technologies.
 
 FEATURES:
 
